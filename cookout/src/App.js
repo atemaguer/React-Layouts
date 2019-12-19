@@ -12,7 +12,6 @@ const {Title, Text, Paragraph} = Typography
 
 function App() {
   return (
-   
     <Layout>
         <Header className="header">
           <HeaderComponent />
