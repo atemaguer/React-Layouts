@@ -1,5 +1,5 @@
 # React Layouts
-React Layouts is an Open Source project that demonstrates various UI designs and layouts using React.js.
+React Layouts is an Open Source project that showcases various reactjs UI designs and layouts made using mockups from dribbble.com.
 
 ## Getting Started
 To get a copy of the project onto your local environment for development and testing purposes, simply clone the repository as shown below:
