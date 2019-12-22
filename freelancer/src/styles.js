@@ -5,11 +5,12 @@ const styles = {
   },
   header:{
     backgroundColor:"rgb(244,244,247)",
-    borderBottomWidth: 2,
-    borderColor:"#000",
+    borderBottomWidth: 1,
+    borderBottomStyle:"solid",
+    borderColor:"#ccc",
     height:80,
     paddingTop:32,
-    marginBottom:24
+    paddingBottom:80
   }
 }
 

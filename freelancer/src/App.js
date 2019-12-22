@@ -1,10 +1,13 @@
 import React from 'react';
 
-import {Layout} from "antd";
+import {Layout, Row, Col, Typography, Card, Icon} from "antd";
 import 'antd/dist/antd.css';
 
 import Sidebar from "./components/Sidebar"
 import Navbar from "./components/Navbar"
+import Profile from "./components/Profile"
+import SubHeader from "./components/SubHeader"
+
 import styles from "./styles"
 
 const {Content, Sider, Header} = Layout;
@@ -20,10 +23,10 @@ function App() {
               <Header style={styles.header}>
                 <Navbar />
               </Header>
-              <Content>
-                <p>Sub header Content</p>
+              <Content style={{paddingLeft:56, paddingTop:8}}>
+                <SubHeader />
                 <div>
-                  body
+                  <Profile />
                 </div>
               </Content>
             </Layout>

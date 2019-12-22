@@ -19,6 +19,10 @@ const styles = {
         margin:32,
         bottom:0,
     },
+    center:{
+        display:"flex",
+        alignItems:"center",
+    }
 }
 
 export default styles;
