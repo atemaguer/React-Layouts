@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
         <Layout>
-            <Sider width={240} style={styles.sidebarContainer}>
+            <Sider width={240} collapsedWidth={0} breakpoint="xs" style={styles.sidebarContainer}>
               <Sidebar />
             </Sider>
             <Layout>
@@ -25,8 +25,12 @@ function App() {
               </Header>
               <Content style={{paddingLeft:56, paddingTop:8}}>
                 <SubHeader />
-                <div>
-                  <Profile />
+                <div style={{display:"flex", flexDirection:"row", flexWrap:"wrap"}}>
+                    <Profile />
+                    <Profile />
+                    <Profile />
+                    <Profile />
+                    <Profile />
                 </div>
               </Content>
             </Layout>

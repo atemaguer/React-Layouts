@@ -49,11 +49,11 @@ const Siderbar = () =>{
                     <Icon type="setting"/>
                     <span>Settings</span>
                 </Menu.Item>
-                <Button style={styles.footer} size="large">
+            </Menu>
+            <Button style={styles.footer} size="large">
                     <Icon type="logout"/>
                     <span style={{paddingLeft:8}}>Logout</span>
-                </Button>
-            </Menu>
+            </Button>
         </div>
     )
 }
